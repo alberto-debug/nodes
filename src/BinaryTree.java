@@ -24,7 +24,6 @@ public class BinaryTree {
         return root;
     }
 
-
     public void inorder(){
         inorderRec(root);
         System.out.println();
