@@ -29,8 +29,7 @@ public class BinaryTree {
         System.out.println();
 
     }
-
-
+    
     public void inorderRec(Node root){
         if (root !=null){
 
