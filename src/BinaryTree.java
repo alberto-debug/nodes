@@ -30,6 +30,7 @@ public class BinaryTree {
 
     }
 
+
     public void inorderRec(Node root){
         if (root !=null){
 
