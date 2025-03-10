@@ -10,11 +10,12 @@ public class BinaryTree {
 
         System.out.println(value);
     }
-    
+
     private Node insertRec(Node root, int value){
         if (root==null){
             return  new Node(value);
         }
+
 
         if (value< root.value){
             root.left = insertRec(root.left, value);
